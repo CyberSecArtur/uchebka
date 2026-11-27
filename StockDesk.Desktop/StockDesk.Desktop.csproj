@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><OutputType>WinExe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../StockDesk.Core/StockDesk.Core.csproj" />
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../StockDesk.Api/StockDesk.Api.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+  <Target Name="CopyLocalServer" AfterTargets="Build">
+    <ItemGroup>
+      <LocalServer Include="../StockDesk.Api/bin/$(Configuration)/net8.0/**/*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(LocalServer)" DestinationFiles="@(LocalServer->'$(OutDir)server/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
+  <ItemGroup>
+    <Compile Update="Views/**/*.xaml.cs"><DependentUpon>%(Filename)</DependentUpon></Compile>
+    <Compile Update="MainWindow.xaml.cs"><DependentUpon>MainWindow.xaml</DependentUpon></Compile>
+    <Compile Update="App.xaml.cs"><DependentUpon>App.xaml</DependentUpon></Compile>
+  </ItemGroup>
+</Project>

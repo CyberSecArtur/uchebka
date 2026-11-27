@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+*.db
+*.db-wal
+*.db-shm
+TestResults/
+artifacts/
+.env
+publish/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.log
+*.zip
+*.docx

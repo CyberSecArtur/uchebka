@@ -1,0 +1,8 @@
+{
+  "solution": {
+    "path": "StockDesk.sln",
+    "projects": [
+      "StockDesk.Desktop\\StockDesk.Desktop.csproj"
+    ]
+  }
+}
