@@ -16,7 +16,7 @@
 
 При первом запуске создаётся локальная база SQLite с 45 вымышленными покупателями и 45 заявками. Используйте [руководство](docs/user-guide.md), чтобы проверить поиск, статусы, роли и обмен файлами.
 
-[Проверка в CI](https://github.com/CyberSecArtur/uchebka/actions) · [Выпуски](https://github.com/CyberSecArtur/uchebka/releases) · [Работы 1–29](docs/practice.md)
+[Проверка в CI](https://github.com/CyberSecArtur/uchebka/actions) · [Выпуски](https://github.com/CyberSecArtur/uchebka/releases) · [Работы 1–29](docs/practice.md) · [Доска практики](https://github.com/users/CyberSecArtur/projects/1/views/1)
 
 ## Правила работы с ветками
 

@@ -1,6 +1,6 @@
 # Работы 1–29
 
-Индивидуальный проект, вариант 17. Задачи и этапы находятся в [Issues](https://github.com/CyberSecArtur/uchebka/issues?q=is%3Aissue), проверки в [Actions](https://github.com/CyberSecArtur/uchebka/actions), публикации в [Releases](https://github.com/CyberSecArtur/uchebka/releases).
+Индивидуальный проект, вариант 17. Задачи и этапы находятся в [Issues](https://github.com/CyberSecArtur/uchebka/issues?q=is%3Aissue) и на [доске работ](https://github.com/users/CyberSecArtur/projects/1/views/1), проверки в [Actions](https://github.com/CyberSecArtur/uchebka/actions), публикации в [Releases](https://github.com/CyberSecArtur/uchebka/releases).
 
 | № | Результат |
 | --- | --- |

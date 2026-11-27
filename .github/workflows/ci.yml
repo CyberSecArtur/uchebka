@@ -35,7 +35,7 @@ jobs:
           path: TestResults/
   package:
     name: Package Windows x64
-    if: startsWith(github.ref, 'refs/tags/v') || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    if: startsWith(github.ref, 'refs/tags/v') || github.ref == 'refs/heads/main' || (github.event_name == 'workflow_dispatch' && startsWith(github.ref, 'refs/heads/release/'))
     needs: verify
     runs-on: windows-latest
     steps:
