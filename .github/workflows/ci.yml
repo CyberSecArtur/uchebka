@@ -1,6 +1,7 @@
 name: StockDesk CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [main, develop, 'feature/**', 'release/**', 'fix/**']
     tags: ['v*']
